@@ -1,7 +1,11 @@
-body {color:#0C13D5 ; background-color:#DCABE2}   
-h1 {color:#0AF780; background-color:#C00AF7}
-main {background-color:#F0EEBB; color:blue}
-footer {color:#F70A21}
+body {color:#0C13D5 ; background-color:#DCABE2;;font-family: cursive, fantasy, sans-serif}   
+h1 {color:#0AF780; background-color:#C00AF7; font-family: fantasy; text-align: center }
+main {color:blue}
+footer {color:#F70A21; font-size: 12px ; font-style: italic}
 .feature1 {background-color:#0AF729; color:#040303; }
-#vikesid {background-color:#6FA6D0; color:#F70425}
-h2 {color: chocolate}
+#vikesid {background-image: url(images/back1.1.png);background-size: auto; background-color:#6FA6D0; color:#F70425}
+h2 {color: olivedrab; font-family: monospace; text-transform: capitalize}
+p {font-family:serif, sans-serif, fantasy}
+ul {list-style-type: square; color:#000000}
+nav{font-weight: bold ; font-size: xx-large;  }
+nav a {text-decoration: none; color: green;}
