@@ -1,41 +1,131 @@
-body {color:#0C13D5 ; background-color:#DCABE2;
+header {
+    position: fixed;
+    color: #0AF780;
+    color: hsla(303, 63%, 25%, 0.4);
+    background-color: #fff;
+    background-repeat: repeat;
+    width: 100%;
+    text-align: center;
+    min-width: 700px;
+    margin: 0;
+    box-shadow: 5px 5px 5px purple;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    margin-top: 50px;
+    font-family: fantasy;
+}
+
+body {
+    color: #0C13D5;
+    background-color: #DCABE2;
     background-image: radial-gradient(#1ECAE0, #662C77);
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-}   
-h1 {color:#0AF780;color: hsla(303, 63%, 25%, 0.4); background-color: #fff; font-family: fantasy; text-align: center; padding-top: 15px; padding-bottom: 12px; 
-    border-radius: 20px; margin-top: 50px;  box-shadow: 5px 5px 5px purple;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
-h2 {color: sandybrown; font-family: monospace; text-transform: capitalize; margin-top: 50px; text-shadow:  5px 5px 5px red; box-shadow: 5px 5px 5px pink; margin-right: 300px; font-size: 110%; font-weight:lighter
-}
-h3 {color: gainsboro; margin-top: 60px; box-shadow: 5px 5px 5px black;
-}
-main {color:blue; 
-   }
-footer {color:#F70A21; font-size: 90% ; font-style: italic}
-.feature1 {background-color:#0AF729; color:#040303; }
-#vikesid {background-image: url(images/back1.1.png);
-    background-size: auto; background-color:#6FA6D0; color:#F70425}
 
-p {font-family:serif, sans-serif, fantasy}
-ul {list-style-type: square; color:#000000}
-nav{font-weight: bold ; font-size: xx-large;  }
-nav a {text-decoration: none; color: gold;}
-.feature2 {background-image: url(images/helmet2.jpg);
+h2 {
+    color: sandybrown;
+    font-family: monospace;
+    text-transform: capitalize;
+    margin-top: 50px;
+    text-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px pink;
+    margin-right: 300px;
+    font-size: 110%;
+    font-weight: lighter
+}
+
+h3 {
+    color: gainsboro;
+    margin-top: 60px;
+    box-shadow: 5px 5px 5px black;
+}
+
+main {
+    color: blue;
+    margin-top: 90px
+}
+
+footer {
+    color: #F70A21;
+    font-size: 90%;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none
+}
+
+.feature1 {
+    background-color: #0AF729;
+    color: #040303;
+}
+
+#vikesid {
+    background-image: url(images/back1.1.png);
+    background-size: auto;
+    background-color: #6FA6D0;
+    color: #F70425
+}
+
+p {
+    font-family: serif, sans-serif, fantasy
+}
+
+ul {
+    list-style-type: square;
+    color: #000000
+}
+
+nav {
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 70px
+}
+
+nav a {
+    text-decoration: none;
+    color: gold;
+}
+
+.feature2 {
+    background-image: url(images/helmet2.jpg);
     background-origin: content-box;
     background-clip: content-box;
     background-position: left;
-    width: 400px; padding: 20px;
+    width: 400px;
+    padding: 20px;
     border: 10px solid black;
 }
-#centerpage {margin-left: auto; margin-right: auto;
-    width: 80%; min-width: 700px;  padding: 60px   
+
+#centerpage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 700px;
+    padding: 60px
 }
-.linkv { font-weight: 100; color:white; font-size: large; margin-bottom: 100px;
-    
+
+.linkv {
+    font-weight: 100;
+    color: white;
+    font-size: large;
+    margin-bottom: 100px;
 }
-h4 {color: goldenrod; text-shadow: 3px 3px 3px grey}
+
+h4 {
+    color: goldenrod;
+    text-shadow: 3px 3px 3px grey
+}
+
+#float1 {
+    float: left;
+    margin-right: 25px;
+    margin-left: 0;
+}
