@@ -55,7 +55,7 @@ footer a {
 }
 
 p {
-    font-family: serif, sans-serif, fantasy;
+    font-family: Arial, sans-serif;
     color: #CEBFFD;
 }
 
@@ -117,5 +117,7 @@ h4 {
 a {
     text-decoration: none
 }
-.redcolor {color:red;
+
+.redcolor {
+    color: red;
 }
